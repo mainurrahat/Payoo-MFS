@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>payoo MFS</title>
     <!-- css file link korchi -->
-    <link rel="stylesheet" href="sty.css">
+    <!-- <link rel="stylesheet" href="sty.css"> -->
     <!-- this is for tailwind and daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -34,7 +34,7 @@
                                         <label class="label">
                                             <span class="label-text">Phone number</span>
                                         </label>
-                                        <input type="text" placeholder="Enter your phn number"
+                                        <input id="phn-nmbr" type="text" placeholder="Enter your phn number"
                                             class="input input-bordered" required />
                                     </div>
                                     <div class="form-control">
@@ -48,22 +48,18 @@
                                         </label>
                                     </div>
                                     <div class="form-control mt-6">
-                                        <button class="btn btn-primary">Login</button>
+                                        <button id="btn-login" class="btn btn-primary">Login</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
 
     </main>
-
-
+    <script src="login.js"></script>
 </body>
 
 </html>
